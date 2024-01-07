@@ -1,0 +1,57 @@
+Bien sûr, pour une table `ExpensesCategories` destinée à des utilisateurs étudiants à l'EPSI (École Privée des Sciences Informatiques), voici quelques catégories de dépenses potentielles que vous pourriez envisager :
+
+1.  Frais de Scolarité : 
+   - Inscription
+   - Cours
+   - Manuels et Livres
+   - Frais d'inscription aux examens
+   - Matériel spécifique pour les projets étudiants
+   - Cotisations d'adhésion à des associations étudiantes
+
+2.  Matériels : 
+   - Ordinateur portable
+   - Logiciels
+   - Accessoires (souris, clavier, etc.)
+   - Papeterie (stylos, crayons, cahiers)  
+   
+3.  Transports : 
+   - Abonnement de transport en commun
+   - Essence (si les étudiants utilisent leur propre voiture)
+
+4.  Hébergement : 
+   - Loyers
+   - Charges (eau, électricité, internet)
+
+5.  Alimentation : 
+   - Courses alimentaires
+   - Repas à l'extérieur
+
+6.  Loisirs : 
+   - Sorties
+   - Cinéma
+   - Activités sociales
+   - Événements Étudiants : 
+   - Frais d'inscription aux événements
+   - Transport pour les sorties organisées par l'école
+
+7.  Santé : 
+   - Médicaments
+   - Consultations
+
+8.  Vêtements : 
+   - Vêtements pour les cours
+   - Uniformes, le cas échéant
+
+9.  Sport : 
+    - Abonnement à une salle de sport
+    - Équipement sportif
+
+10.  Assurances : 
+    - Assurance responsabilité civile étudiante
+    - Assurance santé
+
+11.  Communication : 
+    - Forfait téléphone
+    - Internet mobile
+
+N'oubliez pas d'ajuster ces catégories en fonction des spécificités de l'EPSI et des habitudes de dépenses des étudiants. Vous pouvez également permettre aux utilisateurs d'ajouter des catégories personnalisées pour s'adapter à des dépenses spécifiques qui pourraient ne pas figurer dans la liste prédéfinie.
