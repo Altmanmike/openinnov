@@ -1,5 +1,5 @@
 <script setup>
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+//import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Header from "./component/Header.vue";
 
 /*
