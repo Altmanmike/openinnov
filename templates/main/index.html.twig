@@ -4,62 +4,6 @@
 
 {% block body %}
 
-    <!-- CAROUSSEL -->
-    <div id="myCarousel" class="carousel slide carousel-fade slide-in-fwd-center" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{ asset('assets/img/caroussel_01.jpg') }}" class="d-block w-100" alt="...">
-                    <div class="container">
-                        <div class="carousel-caption text-center gradient-buttons slide-in-fwd-center-2">
-                            <h1 class="mb-2" style="font-weight:bold;color: white;">TITRE 1</h1>
-                            <h2 class="mb-2" style="font-weight:bold;color: white;">Description 1</h2>
-                            <p><a class="btn btn-carou btn-primary" href="#prix">S'inscrire maintenant!</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('assets/img/caroussel_02.jpg') }}" class="d-block w-100" alt="...">
-                    <div class="container">
-                        <div class="carousel-caption text-center gradient-buttons slide-in-fwd-center-2">
-                            <h1 class="mb-2" style="font-weight:bold;">TITRE 2</h1>
-                            <h2 class="mb-2" style="font-weight:bold;">Description 2</h2>
-                            <p><a class="btn btn-carou btn-primary" href="#fonctionnement">En savoir +</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('assets/img/caroussel_04.jpg') }}" class="d-block w-100" alt="...">
-                    <div class="container">
-                        <div class="carousel-caption text-center gradient-buttons slide-in-fwd-center-2">
-                            <h1 class="mb-2" style="font-weight:bold;color: white;">TITRE 3</h1>
-                            <h2 class="mb-2" style="font-weight:bold;color: white;">Description 3</h2>
-                            <p><a class="btn btn-carou btn-primary" href="#fonctionnement">Voir</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('assets/img/caroussel_03.jpg') }}" class="d-block w-100" alt="...">
-                    <div class="container">
-                        <div class="carousel-caption text-center gradient-buttons slide-in-fwd-center-2">
-                            <h1 class="mb-2" style="font-weight:bold;">TITRE 4</h1>
-                            <h2 class="mb-2" style="font-weight:bold;">Description 4</h2>
-                            <p><a class="btn btn-carou btn-primary" href="#prix">Voir</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Précédemment</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Suivant</span>
-            </button>
-        </div>
-    <!-- FIN CAROUSSEL -->
-
-
     <!-- SECTION 1 : PRESENTATION APP -->
     <section id="presentation" class="py-3">
         <div class="container py-2 slide-in-fwd-center-3">
@@ -68,14 +12,14 @@
 
         <div class="bloc-presentation mx-auto my-0">
             
-            <div class="presentation align-items-center my-0">
+            <div class="presentation align-items-center justify-content-between my-0">
                 <!--<div class="col-lg-7"><img class="image-card rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div>-->
                 <div class="col-lg-5 gradient-buttons slide-in-fwd-left">
-                    <h1 class="titre-para-presentation font-weight-light my-4">Application de gestion de budget pour étudiant</h1>
+                    <h1 class="titre-para-presentation font-weight-light my-4">Application de gestion de budget pour étudiant.</h1>
                     <p class="paragraphe">Comment procéder pour obtenir l'accès à l'application 360BudgetBuddy via le site web : commencer par la création d'un compte, c'est rapide et vous n'aurez plus qu'à prendre le temps de lire la description de nos différentes offres.</br> Ne perdez pas de temps!</p>
                     <a class="btn btn-primary w-100 my-4" href="#connexionModal">Création d'un compte</a>
                 </div>
-                <img src="{{ asset('assets/img/presentation.svg') }}" class="img-presentation slide-in-fwd-right" alt="">
+                <img src="{{ asset('assets/img/gif/Money_stress.gif') }}" class="img-presentation slide-in-fwd-right" alt="">
             </div>
             
             <div class="card text-white bg-secondary mb-5 py-1 text-center slide-in-fwd-center">
@@ -127,10 +71,15 @@
         <div class="container py-2 slide-in-fwd-center">
             <h1 class="titre-atouts text-center my-3">Les atouts</h1>
         </div>
-        <div class="bloc-atouts mx-auto my-3">
-            <img src="{{ asset('assets/img/atouts.svg') }}" class="img-atouts mb-5 slide-in-fwd-left" alt="">
-            <p class="paragraphe desc-atouts slide-in-fwd-right">Bénéficiez d'un accès à une gestion des informations provenant d'une expérience de moyen à long termes en matière de dépenses.</p>
-        </div>        
+        <div class="row align-items-center justify-content-between bloc-atouts mx-auto my-3">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                <img src="{{ asset('assets/img/gif/obligations.gif') }}" class="slide-in-fwd-left" alt="">
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                <h1 style="text-align:left;!important">Gestion de moyen à long termes en matière de dépenses.</h1>
+                <p class="paragraphe me-5 slide-in-fwd-right">Bénéficiez d'un accès à une gestion des informations provenant d'une expérience de moyen à long termes en matière de dépenses.</p>
+            </div>
+        </div>
     </section>
     <!-- FIN SECTION 2 : ATOUTS APP -->
 
@@ -145,16 +94,21 @@
         <div class="container py-2 slide-in-fwd-center">
             <h1 class="titre-fonctionnement text-center my-3">Fonctionnement</h1>
         </div>
-        <div class="bloc-fonctionnement mx-auto my-3">
-            <p class="paragraphe desc-fonctionnement slide-in-fwd-left">Possibilité d'extraire les résultats (de simulations ou de données réelles) obtenus lors d'une étude d'amélioration de gestion de vos dépenses.</p>
-            <img src="{{ asset('assets/img/fonctionnement.svg') }}" class="img-fonctionnement slide-in-fwd-right" alt="">
-        </div> 
+        <div class="row align-items-center justify-content-between bloc-atouts mx-auto my-3">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                <img src="{{ asset('assets/img/gif/New Functions.gif') }}" class="slide-in-fwd-right" alt="">
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                <h1 style="text-align:left;!important">Voir, analyser et extraire ses données.</h1>
+                <p class="paragraphe me-5 slide-in-fwd-right">Possibilité d'extraire les résultats (de simulations ou de données réelles) obtenus lors d'une étude d'amélioration de gestion de vos dépenses.</p>
+            </div>
+        </div>
     </section>
     <!-- FIN SECTION 3 : FONCTIONNEMENT APP -->
 
     <hr class="grad">
         <div class="bg-service slide-in-fwd-center">
-            <q>Classez vos données par catégories de dépenses, précisez  votr salaire et visualisez dans le temps!</q>
+            <q>Classez vos données par catégories de dépenses, précisez votre salaire et visualisez dans le temps!</q>
         </div>
     <hr class="grad">
 
@@ -162,9 +116,6 @@
     <section id="prix" class="py-3">
         <div class="container pt-2 slide-in-fwd-center slide-in-fwd-visible">
             <h1 class="titre-prix text-center my-3">Nos prix par abonnements</h1>            
-        </div>
-        <div class="mx-auto text-center py-2">
-            <img src="{{ asset('assets/img/prix.svg') }}" class="svg-prix slide-in-fwd-center" alt="">
         </div>
         <div class="bloc-prix mx-auto my-0">
             <p class="paragraphe mx-auto desc-prix slide-in-fwd-center">Ne perdez plus de temps! Vous avez besoin de plus d'informations, essayez la formule 1 mois sans hésitations!</p>
@@ -284,7 +235,7 @@
 
     <hr class="grad">
         <div class="bg-service slide-in-fwd-center">
-            <q>Etudiants de première ou de dernière année, l'application 360BudgetBuddy vous attend!</q>
+            <q>Étudiants de première ou de dernière année, l'application 360BudgetBuddy vous attend!</q>
         </div>
     <hr class="grad">
 
@@ -293,12 +244,19 @@
         <div class="container py-2 slide-in-fwd-center">
             <h1 class="titre-apropos text-center my-3">À propos</h1>
         </div>
-        <div class="bloc-apropos mx-auto mt-3">
-            <p class="paragraphe desc-apropos my-5 slide-in-fwd-left">
-            À la base fondée par des étudiants expérimentés dans leur domaine, l'EPSI est une école spécialisé dans le secteur de l'informatique basée sur la région Lyonnaise. Elle intervient sur la France entière. <br><br>
-            À travers l'application 360BudgetBuddy, nous souhaitons faciliter la gestion du budget d'un étudiant tout le long de son cursus au sein de l'école, avec des outils lui permettant d'évaluer correctement son budget.<br><br>
-            Notre mission a pour objectif de réduire ses dépenses, tout en ayant la possibilité d'en visualiser les variations par un tableau de bord personnel, d'en faire un suivi et d'en proposer des améliorations.</p>
-            <img src="{{asset('assets/img/apropos.svg')}}" class="img-apropos slide-in-fwd-right" alt="">
+        <div class="row align-items-center justify-content-evenly bloc-apropos mx-auto mt-3">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                <p class="paragraphe my-5 slide-in-fwd-left">
+                        À la base fondée par des étudiants expérimentés dans leur domaine, l'EPSI est une école spécialisé dans le secteur de l'informatique basée sur la région Lyonnaise. Elle intervient sur la France entière. <br><br>
+                        À travers l'application 360BudgetBuddy, nous souhaitons faciliter la gestion du budget d'un étudiant tout le long de son cursus au sein de l'école, avec des outils lui permettant d'évaluer correctement son budget.<br><br>
+                        Notre mission a pour objectif de réduire ses dépenses, tout en ayant la possibilité d'en visualiser les variations par un tableau de bord personnel, d'en faire un suivi et d'en proposer des améliorations.
+                </p>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                <div class="mx-auto my-5 slide-in-fwd-right slide-in-fwd-visible">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89077.17183972045!2d4.765090345653721!3d45.75792930291083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea516ae88797%3A0x408ab2ae4bb21f0!2sLyon!5e0!3m2!1sfr!2sfr!4v1651826526913!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width:25%"></iframe>
+                </div>
+            </div>
         </div> 
 
         <!-- A PROPOS -->
@@ -337,11 +295,7 @@
                     </form>
 
                 </div>
-                <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-                    <div class="mx-auto bg-light rounded p-4 p-sm-5 my-4 mx-3 slide-in-fwd-right">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89077.17183972045!2d4.765090345653721!3d45.75792930291083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea516ae88797%3A0x408ab2ae4bb21f0!2sLyon!5e0!3m2!1sfr!2sfr!4v1651826526913!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width:25%"></iframe>                       
-                    </div>
-                </div>
+
             </div>
         </div>
         <!-- FIN A PROPOS -->  

@@ -38,7 +38,7 @@ hr.grad {
 
   text-align : center;
   color: white;
-  text-shadow: 4px 2px 8px black;
+  /*text-shadow: 4px 2px 8px black;*/
 }
 
 section {
@@ -48,7 +48,10 @@ section {
   height: auto;
 }
 
-
+h1, q {
+  font-weight: bold!important;
+  color: #001122!important;
+}
 
 /*********************************************************************************************************/
 /****************************************/
@@ -125,10 +128,10 @@ body > nav {
 /************* PRESENTATION *************/
 /****************************************/
 section#presentation {
-  border-top: 2px black solid;
+  border-top: 0px black solid;
 
   /* gradient de style */
-  background: hsla(0, 0%, 100%, 1);
+  /*background: hsla(0, 0%, 100%, 1);*/
   /*background: linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsl(221deg 50% 63% / 17%) 100%);
   background: -moz-linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsl(221deg 50% 63% / 17%) 100%);
   background: -webkit-linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsl(221deg 50% 63% / 17%) 100%);*/
@@ -148,6 +151,7 @@ section#presentation {
 
 .paragraphe {
   text-align: justify;
+  font-size: larger;
 }
 
 /****************************************/
@@ -155,7 +159,7 @@ section#presentation {
 /****************************************/
 section#atouts {
   /* gradient de style */
-  background: hsla(292deg 60% 90% / 20%);
+  /*background: hsla(292deg 60% 90% / 20%);*/
   /*background: linear-gradient(310deg, hsla(292deg 60% 90% / 20%) 0%, hsla(0, 0%, 100%, 1) 100%);
   background: -moz-linear-gradient(310deg, hsla(292deg 60% 90% / 20%) 0%, hsla(0, 0%, 100%, 1) 100%);
   background: -webkit-linear-gradient(310deg, hsla(292deg 60% 90% / 20%) 0%, hsla(0, 0%, 100%, 1) 100%);*/
@@ -166,7 +170,7 @@ section#atouts {
 /****************************************/
 section#fonctionnement {
   /* gradient de style */
-  background: hsla(58deg 60% 55% / 10%);
+  /*background: hsla(58deg 60% 55% / 10%);*/
   /*background: linear-gradient(180deg, hsla(58deg 60% 55% / 10%) 0%, hsla(0, 0%, 100%, 1) 100%);
   background: -moz-linear-gradient(180deg, hsla(58deg 60% 55% / 10%) 0%, hsla(0, 0%, 100%, 1) 100%);
   background: -webkit-linear-gradient(180deg, hsla(58deg 60% 55% / 10%) 0%, hsla(0, 0%, 100%, 1) 100%);*/
@@ -177,7 +181,7 @@ section#fonctionnement {
 /****************************************/
 section#prix {
   /* gradient de style */
-  background: hsla(103, 70%, 28%, 0.15);
+  /*background: hsla(103, 70%, 28%, 0.15);*/
   /*background: radial-gradient(circle, hsla(103, 70%, 28%, 0.15) 0%, hsla(0, 0%, 100%, 1) 100%);
   background: -moz-radial-gradient(circle, hsla(103, 70%, 28%, 0.15) 0%, hsla(0, 0%, 100%, 1) 100%);
   background: -webkit-radial-gradient(circle, hsla(103, 70%, 28%, 0.15) 0%, hsla(0, 0%, 100%, 1) 100%);*/
@@ -188,7 +192,7 @@ section#prix {
 /****************************************/
 section#apropos {
   /* gradient de style */
-  background: hsla(45, 100%, 84%, 0.1);
+  /*background: hsla(45, 100%, 84%, 0.1);*/
   /*background: linear-gradient(225deg, hsla(45, 100%, 84%, 0.1) 20%, hsla(216, 98%, 52%, 0.1) 100%);
   background: -moz-linear-gradient(225deg, hsla(45, 100%, 84%, 0.1) 20%, hsla(216, 98%, 52%, 0.1) 100%);
   background: -webkit-linear-gradient(225deg, hsla(45, 100%, 84%, 0.1) 20%, hsla(216, 98%, 52%, 0.1) 100%);*/
